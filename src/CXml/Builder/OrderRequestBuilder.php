@@ -103,7 +103,7 @@ class OrderRequestBuilder
 		?string $addressId = null,
 		?string $addressIdDomain = null,
 		?string $email = null,
-		?string $phone = null,
+		?Phone  $phone = null,
 		?string $fax = null,
 		?string $url = null
 	): self {
